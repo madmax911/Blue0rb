@@ -1,0 +1,19 @@
+{
+  "html": "text/html",
+  "htm": "text/html",
+  "css": "text/css",
+  "js": "text/javascript",
+  "json": "application/json",
+  "txt": "text/plain",
+  "jpg": "image/jpeg",
+  "jpeg": "image/jpeg",
+  "gif": "image/gif",
+  "png": "image/png",
+  "svg": "image/svg+xml",
+  "ico": "image/vnd.microsoft.icon",
+  "ttf": "font/ttf",
+  "woff": "font/woff",
+  "woff2": "font/woff2",
+  "eot": "application/vnd.ms-fontobject",
+  "zip": "application/zip"
+}
