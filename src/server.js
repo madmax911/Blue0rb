@@ -108,7 +108,7 @@ http.createServer
                       +              "window.open(document.location + q + 'QuitServer=1', '_self')\"></div>");
                 }
                 
-                resp.write( fileText + '\n' + additional_html_text );  // Inject html
+                resp.write( fileText.replace("<body>", "<body>\n" + additional_html_text + "\n") );  // Inject html
               }
               else if (file_mime_subtype === 'css')
               {
